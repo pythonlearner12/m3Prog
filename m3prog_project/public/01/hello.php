@@ -7,3 +7,4 @@ naam: Fred,
 Klas: hud1 denk ik.
 
 ";
+?>
