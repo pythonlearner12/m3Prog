@@ -17,7 +17,7 @@
     
     array_pop($namen);
     array_push($namen, "peter2");
-    $namen[] = "dit is een gek manier om iets toe tevoegen";
+    $namen[5] = "dit is een gek manier om iets toe tevoegen";
     print_r($namen);?><br>
 
 

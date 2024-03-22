@@ -6,7 +6,8 @@ $games = ["Zelda", "Minecraft", "Roblox", "Pokemon", "Digimon"];
 print_r($games);
 
 //waarom pushed minesweep nadat er gesort is al word het eerder gezet dan sort?
-array_push($games, "minesweep");
+array_push($games, "Minesweep");
+print_r($games);
 
 ?>
 <!DOCTYPE html>
@@ -21,6 +22,7 @@ array_push($games, "minesweep");
     <p><?=$games[4];?></p>    
     <p><?=count($games);?></p>
     <p><?=sort($games);?></p>
+    <?php print_r($games)?>
     <p><?=implode(", ", $games);?></p>
     
 </body>
