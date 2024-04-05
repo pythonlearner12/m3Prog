@@ -34,6 +34,14 @@ CREATE TABLE `meterstanden` (
   `datum` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+
+INSERT INTO `meterstanden` (`id`, `stand`, `soort`, `datum`) VALUES
+(1, 10000, 'electriciteit', '2023-12-12'),
+(2, 10000, 'electriciteit', '2023-12-01'),
+(3, 10500, 'electriciteit', '2023-12-02'),
+(4, 11000, 'electriciteit', '2023-12-03'),
+(5, 12000, 'electriciteit', '2023-12-04'),
+(6, 13000, 'electriciteit', '2023-12-05');
 --
 -- Indexes for dumped tables
 --
